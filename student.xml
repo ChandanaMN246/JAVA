@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student[
+<!ELEMENT student (stud+)>
+<!ELEMENT stud (sid,sname,ssem,ssubj1,ssubj2,saddr,scollege,suniversity)>
+<!ELEMENT sid (#PCDATA)>
+<!ELEMENT sname (#PCDATA)>
+<!ELEMENT ssem (#PCDATA)>
+<!ELEMENT ssubj1 (#PCDATA)>
+<!ELEMENT ssubj2 (#PCDATA)>
+<!ELEMENT saddr (#PCDATA)>
+<!ELEMENT scollege (#PCDATA)>
+<!ELEMENT suniversity (#PCDATA)>
+]>
+
+<student>
+
+	<stud>
+		<sid>101</sid>
+		<sname>Chandu</sname>
+		<ssem>VI</ssem>
+		<ssubj1>Java</ssubj1>
+		<ssubj2>ML</ssubj2>
+		<saddr>#246,woc, bangalore</saddr>
+		<scollege>ACED</scollege>
+		<suniversity>Alliance University</suniversity>
+	</stud>
+	<stud>
+		<sid>102</sid>
+		<sname>Rupa</sname>
+		<ssem>VI</ssem>
+		<ssubj1>Java</ssubj1>
+		<ssubj2>ML</ssubj2>
+		<saddr>#468,e-city, bangalore</saddr>
+		<scollege>ACED</scollege>
+		<suniversity>Alliance University</suniversity>
+	</stud>
+</student>

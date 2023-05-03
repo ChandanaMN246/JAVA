@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student xmlns="http://www.example.org/studs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/studs studs1.xsd">
+	<stud>
+		<sid>101</sid>
+		<sname>Chandu</sname>
+		<ssem>VI</ssem>
+		<ssubj1>10</ssubj1>
+		<ssubj2>20</ssubj2>
+		<saddr doorno="246" place="Bangalore">woc</saddr>
+	</stud>
+	<stud>
+		<sid>102</sid>
+		<sname>Rupa</sname>
+		<ssem>VI</ssem>
+		<ssubj1>10</ssubj1>
+		<ssubj2>20</ssubj2>
+		<saddr doorno="468" place="Bangalore">e-city</saddr>
+	</stud>
+</student>

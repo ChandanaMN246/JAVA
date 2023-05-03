@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Employee>
+	<emp>
+	<eid>101</eid>
+		<ename>
+			<fname>Chandana</fname>
+			<lname>MN</lname>
+		</ename>
+		<edesignation>Project Manager</edesignation>
+		<esalary>1000000</esalary>
+		<egc>1</egc>
+		<eaddr>#246,woc</eaddr>
+		<eloc>Bengalore</eloc>
+	</emp>
+	
+	<emp>
+		<eid>102</eid>
+		<ename>
+			<fname>Rupa</fname>
+			<lname>Sravya</lname>
+		</ename>
+		<edesignation>Team Leader</edesignation>
+		<esalary>100000</esalary>
+		<egc>2</egc>
+		<eaddr>#468,e-city</eaddr>
+		<eloc>Bengalore</eloc>
+	</emp>
+	
+	<emp>
+		<eid>103</eid>
+		<ename>
+			<fname>Divya</fname>
+			<lname>Shree</lname>
+		</ename>
+		<edesignation>Finance Manager</edesignation>
+		<esalary>10000</esalary>
+		<egc>1</egc>
+		<eaddr>#680,iglore</eaddr>
+		<eloc>Bengalore</eloc>
+	</emp>
+</Employee>

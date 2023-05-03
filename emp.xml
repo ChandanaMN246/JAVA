@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="emp1.xsl" version="1.0" type="text/xsl"?>
+<employee>
+	<emp>
+		<eid>101</eid>
+		<ename>Chandu</ename>
+		<edesign>Professor</edesign>
+		<egc>1</egc>
+		<esal>25000</esal>
+		<eaddr>#246,woc,Banglore</eaddr>
+	</emp>
+	<emp>
+		<eid>101</eid>
+		<ename>Rupa</ename>
+		<edesign>Professor</edesign>
+		<egc>1</egc>
+		<esal>22000</esal>
+		<eaddr>#468,e-city,Banglore</eaddr>
+	</emp>
+</employee>

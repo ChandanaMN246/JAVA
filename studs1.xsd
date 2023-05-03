@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/studs" xmlns:tns="http://www.example.org/studs" elementFormDefault="qualified">
+<element name="student"></element> 
+<complexType name="student">
+<sequence>
+<element name="id" type="int" maxOccurs= "unbounded" minOccurs="1"></element>
+<element name="sname" type="string" maxOccurs="unbounded" minOccurs="1"></element>
+<element name="ssem" type="string" maxOccurs="unbounded" minOccurs="1"></element>
+<element name="ssubj1" type="int" maxOccurs="1" minOccurs="1"></element>
+<element name="ssubj2" type="int" maxOccurs="1" minOccurs="1"></element>
+<element name="saddr" type="string" maxOccurs ="unbounded" minOccurs="1"></element> 
+</sequence> 
+<attribute name="doorno" type="integer" use="required"></attribute>
+<attribute name= "place" type="string" use ="required"></attribute>
+<attribute name="city" type="string" use= "required"></attribute>
+</complexType>
+</schema>
