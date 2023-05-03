@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book_catalog SYSTEM "a1.dtd">
+<book_catalog>
+	<book>
+		<bid>101</bid>
+		<btitle>JavaProgramming</btitle>
+		<bauthor>Jamea S Gosling</bauthor>
+		<bpublisher>Mc Graw Hill</bpublisher>
+		<bprice>450</bprice>
+		<bedition>2022</bedition>
+		<quantity>25</quantity>
+	</book>
+	<book>
+		<bid>102</bid>
+		<btitle>C Programming</btitle>
+		<bauthor>Denis</bauthor>
+		<bpublisher>Mc Graw Hill</bpublisher>
+		<bprice>245</bprice>
+		<bedition>2020</bedition>
+		<quantity>20</quantity>
+	</book>
+</book_catalog>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT book_catalog (book+)>
+<!ELEMENT book (bid,btitle, bauthor,bpublisher,bprice,bedition,quantity)>
+<!ELEMENT bid (#PCDATA)>
+<!ELEMENT btitle (#PCDATA)>
+<!ELEMENT bauthor (#PCDATA)>
+<!ELEMENT bpublisher (#PCDATA)>
+<!ELEMENT bprice (#PCDATA)>
+<!ELEMENT bedition (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+
